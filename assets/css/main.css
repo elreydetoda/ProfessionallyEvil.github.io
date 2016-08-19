@@ -1,0 +1,40 @@
+@font-face {
+    font-family: siBody;
+    src: url(droidsans.ttf);
+}
+
+body {
+    margin:0px;
+    background-color:#333;
+}
+
+.header {
+    top:0px;
+    left:0px;
+    width:100%;
+    height:120px;
+    background-color:#fff;
+    text-align: center;
+}
+
+img.logo {
+    height:85%;
+}
+
+.content {
+    color:#fff;
+    font-family: siBody, sans-serif;
+    margin: 4px 4px 4px 4px;
+}
+
+span.pe {
+    color:crimson;
+}
+
+a.si {
+    color:#fff;
+}
+
+a.si:hover {
+    color:crimson;
+}
