@@ -8,6 +8,11 @@
     src: url(../fonts/inconsolata/inconsolata-bold.ttf);
 }
 
+@font-face {
+    font-family: sectionHeader;
+    src: url(../fonts/raleway/raleway-medium.ttf);
+}
+
 body {
     margin:0px;
     background-color:#333;
@@ -31,6 +36,18 @@ img.logo {
     color:#fff;
     font-family: siBody, sans-serif;
     margin: 4px 4px 4px 4px;
+    padding: 0px 12px 0px 12px;
+}
+
+div.section-header {
+    font-family: sectionHeader;
+    font-size: 16pt;
+    background-color:black;
+    width:auto;
+    border-radius: 15pt;
+    padding-left: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 span.pe {
@@ -45,4 +62,27 @@ a.si {
 
 a.si:hover {
     color:crimson;
+}
+
+p {
+    margin-right: 1em;
+}
+
+div.project-list > div {
+    height: 30px;
+}
+
+a.project-link {
+    color:#fff;
+    text-decoration: none;
+    position:relative;
+    height: 100%;
+}
+
+a.project-link:hover, a.project-link:active {
+    color:crimson;
+}
+
+a.project-link:active {
+    text-decoration: underline;
 }
