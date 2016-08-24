@@ -1,16 +1,11 @@
 @font-face {
-    font-family: siBody;
-    src: url(../fonts/inconsolata/inconsolata-regular.ttf);
-}
-
-@font-face {
     font-family: siBodyBold;
-    src: url(../fonts/inconsolata/inconsolata-bold.ttf);
+    src: url(../inconsolata-bold.ttf);
 }
 
 @font-face {
     font-family: sectionHeader;
-    src: url(../fonts/raleway/raleway-medium.ttf);
+    src: url(../raleway-medium.ttf);
 }
 
 body {
